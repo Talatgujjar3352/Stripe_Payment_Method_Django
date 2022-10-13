@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4%^)smj05ot61iwlo!i0sny&omj1kmk5q$b9ld6%r!rt&v-dy%'
+SECRET_KEY = '**'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -28,8 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 if DEBUG:
-    STRIPE_PUBLISHABLE_KEY = 'pk_test_51LEyQtCb6e6huBreSMFVXGgbTRaAQdAxY4cymRn5IPiOHSw8kmv91iCLuz5mUrLO4lLCXO78nqdBU9WV9eHjqQ9L00X1G7Vxps'
-    STRIPE_SECRET_KEY = 'sk_test_51LEyQtCb6e6huBretf7V6bnTdkde1sCkOMQ8YLKZMBadwYFGZnblodLQsyCYnCNXB3McPvuIOKVqchLySiTyLTgu00cljQhzw6'
+    STRIPE_PUBLISHABLE_KEY = ''
+    STRIPE_SECRET_KEY = ''
 
 # Application definition
 
